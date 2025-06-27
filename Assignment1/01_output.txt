@@ -1,0 +1,3 @@
+Using device: cuda
+Mean MSE: 11.7063
+Standard Deviation of MSE: 3.0898

@@ -1,0 +1,23 @@
+Using device: cuda
+
+Training 1 layer model...
+1 layer → Mean MSE: 14.0866, Std: 3.8134
+
+Training 2 layers model...
+2 layers → Mean MSE: 11.9919, Std: 4.1480
+
+Training 3 layers model...
+3 layers → Mean MSE: 11.8444, Std: 4.1720
+
+Training 4 layers model...
+4 layers → Mean MSE: 11.4300, Std: 3.0822
+
+Training 5 layers model...
+5 layers → Mean MSE: 9.8939, Std: 2.1244
+
+Summary of all results:
+1 layer    → Mean MSE: 14.0866, Std: 3.8134
+2 layers   → Mean MSE: 11.9919, Std: 4.1480
+3 layers   → Mean MSE: 11.8444, Std: 4.1720
+4 layers   → Mean MSE: 11.4300, Std: 3.0822
+5 layers   → Mean MSE: 9.8939, Std: 2.1244

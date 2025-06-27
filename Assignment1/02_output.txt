@@ -1,0 +1,16 @@
+Using device: cuda
+
+Training model with 4 hidden units...
+Mean MSE: 43.0589, Std: 33.5184
+
+Training model with 8 hidden units...
+Mean MSE: 23.4349, Std: 3.9537
+
+Training model with 16 hidden units...
+Mean MSE: 19.7585, Std: 4.6968
+
+Training model with 32 hidden units...
+Mean MSE: 14.4451, Std: 3.4138
+
+Training model with 64 hidden units...
+Mean MSE: 13.0463, Std: 4.0928
