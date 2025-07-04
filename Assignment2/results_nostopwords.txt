@@ -1,0 +1,41 @@
+TensorFlow version: 2.10.0
+GPU devices: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/imdb_word_index.json
+1641221/1641221 [==============================] - 0s 0us/step
+2025-07-05 00:34:59.171875: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-07-05 00:34:59.571613: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1656 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3050 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 1/3
+2025-07-05 00:35:00.919805: I tensorflow/stream_executor/cuda/cuda_blas.cc:1614] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+313/313 [==============================] - 3s 4ms/step - loss: 0.5130 - accuracy: 0.7586 - val_loss: 0.3090 - val_accuracy: 0.8748
+Epoch 2/3
+313/313 [==============================] - 1s 4ms/step - loss: 0.2461 - accuracy: 0.9050 - val_loss: 0.2799 - val_accuracy: 0.8816
+Epoch 3/3
+313/313 [==============================] - 1s 4ms/step - loss: 0.1834 - accuracy: 0.9338 - val_loss: 0.2906 - val_accuracy: 0.8768
+782/782 [==============================] - 1s 2ms/step - loss: 0.2937 - accuracy: 0.8769
+Logistic (No Stopwords) Accuracy: 87.69%
+Epoch 1/5
+313/313 [==============================] - 2s 5ms/step - loss: 0.4264 - accuracy: 0.7861 - val_loss: 0.2903 - val_accuracy: 0.8784
+Epoch 2/5
+313/313 [==============================] - 1s 4ms/step - loss: 0.1505 - accuracy: 0.9468 - val_loss: 0.3340 - val_accuracy: 0.8686
+Epoch 3/5
+313/313 [==============================] - 1s 4ms/step - loss: 0.0297 - accuracy: 0.9927 - val_loss: 0.4438 - val_accuracy: 0.8640
+Epoch 4/5
+313/313 [==============================] - 1s 4ms/step - loss: 0.0037 - accuracy: 0.9998 - val_loss: 0.5207 - val_accuracy: 0.8626
+Epoch 5/5
+313/313 [==============================] - 1s 5ms/step - loss: 9.1924e-04 - accuracy: 0.9999 - val_loss: 0.5612 - val_accuracy: 0.8656
+782/782 [==============================] - 2s 2ms/step - loss: 0.5820 - accuracy: 0.8604
+FFNN (No Stopwords) Accuracy: 86.04%
+Epoch 1/5
+2025-07-05 00:35:15.911954: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384] Loaded cuDNN version 8907
+313/313 [==============================] - 5s 8ms/step - loss: 0.4414 - accuracy: 0.7849 - val_loss: 0.3330 - val_accuracy: 0.8568
+Epoch 2/5
+313/313 [==============================] - 2s 8ms/step - loss: 0.2378 - accuracy: 0.9075 - val_loss: 0.3354 - val_accuracy: 0.8640
+Epoch 3/5
+313/313 [==============================] - 2s 8ms/step - loss: 0.1278 - accuracy: 0.9561 - val_loss: 0.3758 - val_accuracy: 0.8624
+Epoch 4/5
+313/313 [==============================] - 2s 8ms/step - loss: 0.0484 - accuracy: 0.9854 - val_loss: 0.5122 - val_accuracy: 0.8594
+Epoch 5/5
+313/313 [==============================] - 2s 8ms/step - loss: 0.0178 - accuracy: 0.9955 - val_loss: 0.6579 - val_accuracy: 0.8562
+782/782 [==============================] - 2s 3ms/step - loss: 0.6709 - accuracy: 0.8551
+CNN (No Stopwords) Accuracy: 85.51%
