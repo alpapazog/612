@@ -1,0 +1,100 @@
+[2-layer] Epoch 10/100, Loss: 0.036919
+[2-layer] Epoch 20/100, Loss: 0.036488
+[2-layer] Epoch 30/100, Loss: 0.035141
+[2-layer] Epoch 40/100, Loss: 0.033547
+[2-layer] Epoch 50/100, Loss: 0.031481
+[2-layer] Epoch 60/100, Loss: 0.029480
+[2-layer] Epoch 70/100, Loss: 0.027170
+[2-layer] Epoch 80/100, Loss: 0.024582
+[2-layer] Epoch 90/100, Loss: 0.021802
+[2-layer] Epoch 100/100, Loss: 0.018914
+[2-layer] Accuracy: 92.00%
+
+Sample Predictions:
+Input: A -> Predicted: B
+Input: B -> Predicted: B
+Input: C -> Predicted: D
+Input: D -> Predicted: E
+Input: E -> Predicted: F
+Input: F -> Predicted: G
+Input: G -> Predicted: H
+Input: H -> Predicted: I
+Input: I -> Predicted: J
+Input: J -> Predicted: K
+Input: K -> Predicted: L
+Input: L -> Predicted: M
+Input: M -> Predicted: N
+Input: N -> Predicted: O
+Input: O -> Predicted: P
+Input: P -> Predicted: Q
+Input: Q -> Predicted: R
+Input: R -> Predicted: S
+Input: S -> Predicted: T
+Input: T -> Predicted: U
+Input: U -> Predicted: V
+Input: V -> Predicted: W
+Input: W -> Predicted: X
+Input: X -> Predicted: Z
+Input: Y -> Predicted: Z
+
+Training with 1 LSTM layer(s)...
+[1 layer(s)] Final Loss: 0.030444, Accuracy: 80.00%
+
+Training with 2 LSTM layer(s)...
+[2 layer(s)] Final Loss: 0.018695, Accuracy: 92.00%
+
+Training with 3 LSTM layer(s)...
+[3 layer(s)] Final Loss: 0.015169, Accuracy: 92.00%
+
+Training with 4 LSTM layer(s)...
+[4 layer(s)] Final Loss: 0.018442, Accuracy: 88.00%
+
+Training with different hyperparameters
+Layers: 1, Hidden: 16, LR: 0.1000 -> Loss: 0.013298, Acc: 100.00%
+Layers: 1, Hidden: 16, LR: 0.0100 -> Loss: 0.032407, Acc: 64.00%
+Layers: 1, Hidden: 16, LR: 0.0010 -> Loss: 0.036886, Acc: 4.00%
+Layers: 1, Hidden: 16, LR: 0.0001 -> Loss: 0.037023, Acc: 4.00%
+Layers: 1, Hidden: 32, LR: 0.1000 -> Loss: 0.014479, Acc: 96.00%
+Layers: 1, Hidden: 32, LR: 0.0100 -> Loss: 0.030480, Acc: 80.00%
+Layers: 1, Hidden: 32, LR: 0.0010 -> Loss: 0.036767, Acc: 8.00%
+Layers: 1, Hidden: 32, LR: 0.0001 -> Loss: 0.037000, Acc: 4.00%
+Layers: 1, Hidden: 64, LR: 0.1000 -> Loss: 0.015739, Acc: 80.00%
+Layers: 1, Hidden: 64, LR: 0.0100 -> Loss: 0.027800, Acc: 88.00%
+Layers: 1, Hidden: 64, LR: 0.0010 -> Loss: 0.036618, Acc: 8.00%
+Layers: 1, Hidden: 64, LR: 0.0001 -> Loss: 0.036979, Acc: 4.00%
+Layers: 1, Hidden: 128, LR: 0.1000 -> Loss: 0.031776, Acc: 44.00%
+Layers: 1, Hidden: 128, LR: 0.0100 -> Loss: 0.024867, Acc: 92.00%
+Layers: 1, Hidden: 128, LR: 0.0010 -> Loss: 0.036341, Acc: 8.00%
+Layers: 1, Hidden: 128, LR: 0.0001 -> Loss: 0.036972, Acc: 4.00%
+Layers: 2, Hidden: 16, LR: 0.1000 -> Loss: 0.007567, Acc: 96.00%
+Layers: 2, Hidden: 16, LR: 0.0100 -> Loss: 0.026084, Acc: 84.00%
+Layers: 2, Hidden: 16, LR: 0.0010 -> Loss: 0.036920, Acc: 8.00%
+Layers: 2, Hidden: 16, LR: 0.0001 -> Loss: 0.036994, Acc: 4.00%
+Layers: 2, Hidden: 32, LR: 0.1000 -> Loss: 0.008389, Acc: 72.00%
+Layers: 2, Hidden: 32, LR: 0.0100 -> Loss: 0.018611, Acc: 92.00%
+Layers: 2, Hidden: 32, LR: 0.0010 -> Loss: 0.036764, Acc: 4.00%
+Layers: 2, Hidden: 32, LR: 0.0001 -> Loss: 0.036994, Acc: 4.00%
+Layers: 2, Hidden: 64, LR: 0.1000 -> Loss: 0.031962, Acc: 24.00%
+Layers: 2, Hidden: 64, LR: 0.0100 -> Loss: 0.013094, Acc: 100.00%
+Layers: 2, Hidden: 64, LR: 0.0010 -> Loss: 0.035999, Acc: 8.00%
+Layers: 2, Hidden: 64, LR: 0.0001 -> Loss: 0.036972, Acc: 4.00%
+Layers: 2, Hidden: 128, LR: 0.1000 -> Loss: 0.014584, Acc: 84.00%
+Layers: 2, Hidden: 128, LR: 0.0100 -> Loss: 0.009181, Acc: 100.00%
+Layers: 2, Hidden: 128, LR: 0.0010 -> Loss: 0.034491, Acc: 12.00%
+Layers: 2, Hidden: 128, LR: 0.0001 -> Loss: 0.036961, Acc: 4.00%
+Layers: 3, Hidden: 16, LR: 0.1000 -> Loss: 0.022104, Acc: 72.00%
+Layers: 3, Hidden: 16, LR: 0.0100 -> Loss: 0.022138, Acc: 80.00%
+Layers: 3, Hidden: 16, LR: 0.0010 -> Loss: 0.036935, Acc: 4.00%
+Layers: 3, Hidden: 16, LR: 0.0001 -> Loss: 0.037029, Acc: 4.00%
+Layers: 3, Hidden: 32, LR: 0.1000 -> Loss: 0.023546, Acc: 60.00%
+Layers: 3, Hidden: 32, LR: 0.0100 -> Loss: 0.016039, Acc: 92.00%
+Layers: 3, Hidden: 32, LR: 0.0010 -> Loss: 0.036890, Acc: 8.00%
+Layers: 3, Hidden: 32, LR: 0.0001 -> Loss: 0.036978, Acc: 4.00%
+Layers: 3, Hidden: 64, LR: 0.1000 -> Loss: 0.032813, Acc: 20.00%
+Layers: 3, Hidden: 64, LR: 0.0100 -> Loss: 0.008925, Acc: 100.00%
+Layers: 3, Hidden: 64, LR: 0.0010 -> Loss: 0.036182, Acc: 8.00%
+Layers: 3, Hidden: 64, LR: 0.0001 -> Loss: 0.036985, Acc: 4.00%
+Layers: 3, Hidden: 128, LR: 0.1000 -> Loss: 0.036927, Acc: 4.00%
+Layers: 3, Hidden: 128, LR: 0.0100 -> Loss: 0.004838, Acc: 100.00%
+Layers: 3, Hidden: 128, LR: 0.0010 -> Loss: 0.033864, Acc: 20.00%
+Layers: 3, Hidden: 128, LR: 0.0001 -> Loss: 0.036970, Acc: 4.00%
